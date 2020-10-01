@@ -1,0 +1,170 @@
+body{
+    margin:0;
+    background-image:url(img/123456789.jpeg);
+    background-size: cover;
+    
+}
+/*cabeçalho*/
+#cabe{
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    height: 70px;
+    box-sizing: border-box; 
+    background:rgba(0, 103, 129, 0.39);
+    
+}
+#logo{
+    float: left;
+}
+#lis{
+    float: right;
+    
+}
+.bmar {
+    position: relative;
+    right: 2%;
+    box-sizing: border-box;
+    float: left;
+    
+}
+.imagem{
+    display: block;
+    height: auto;
+    opacity: 1;
+    transition: .5s ease-in;
+    margin:7px;
+    
+}
+
+.textinho{
+    position: absolute;
+    top: 20;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    text-align: center;
+    
+}
+a{
+    color: white;
+    font-size: 16px;
+}
+a:link{
+    text-decoration: none; 
+    
+}
+.bmar:hover .imagem{
+    opacity: 0;
+    transition: .5s ease-out;
+}
+
+.bmar:hover .textinho {
+    opacity: 1;
+}
+
+
+#capa{
+    text-align: center;
+    background: url(img/pexels-belle-co-847393.jpg);
+    background-size: cover;
+    height: 700px;
+    box-sizing: border-box;
+    
+}
+h1{
+    padding-top: 300px;
+    font-size: 60px;
+}
+h2{
+    font-size: 30px;
+}
+.marca{
+    bottom:5px;
+    right:5px;
+    opacity:0.3;
+    position: absolute;
+    z-index: 0;
+    
+}
+.conteudo{
+    margin: 1%; 
+    border:10px;
+    border-color:rgb(131, 131, 131);
+    border-style: solid;
+    border-width: 99%;
+    padding:1%;
+    background:white;
+    height: 400px;
+    box-sizing: border-box;
+    text-align: justify;
+}
+#p1{
+    width:49% ;
+    position: relative;
+    z-index: 2;
+}
+#img1{
+    height: 55%; width: 40%;
+    left:55%; top: 750px;
+    position: absolute;
+    z-index: 2;
+}
+#gota{
+    left: 37%; top: 740px; 
+}
+#energia{
+    height: 300px;
+}
+#txteng{
+    width: 40%;
+    left:55%; top: 1150px;
+    position: absolute;
+    z-index: 2;
+}
+#vidio1{
+    opacity: 1;
+    position: relative;
+    z-index: 2;
+}
+#raio{
+    left: 40%; top:1140px;
+}
+#peixe{
+    left: 38%; top:1460px;
+}
+#pesca2{
+    position: relative;
+    z-index: 2;
+    width:50%;
+}
+#extinção{
+    position: absolute;
+    z-index: 2;
+    left: 70%; top: 1470px;
+}
+#morte{
+    position: relative;
+    left: 35%; bottom:200;
+    width: 300px;
+}
+li{ 
+    list-style: none;
+    line-height:1.5;
+    
+}
+
+#li::before{
+    content:"》";
+    color:blue;
+    
+}
+footer{
+    text-align: center;
+    padding:1%;
+    color: white;
+}
